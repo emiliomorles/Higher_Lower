@@ -1,5 +1,5 @@
 import random
-import os  # it helps cleaning the previous stage
+import os  # it helps to clean the previous stage
 from art import logo, vs
 from game_data import data
 
@@ -13,9 +13,9 @@ def format_data(account):
     """Format account into printable format: name, description and country"""
     # Values from the Keys in the person_a
     person_name = account["name"]
-    profesion = account["description"]
+    profession = account["description"]
     person_country = account["country"]
-    return f"{person_name}, a {profesion}, from {person_country}"
+    return f"{person_name}, a {profession}, from {person_country}"
 
 
 def check_answer(guess, person_a, person_b):
