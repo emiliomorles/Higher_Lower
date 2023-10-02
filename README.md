@@ -28,9 +28,9 @@ Give it a try! Challenge yourself or compete with friends to see who's the ultim
 
 ## Year: 2023
 
-🔸 I learned:
+✅ I learned:
 
-    - How to check for an answer with multiple values  ✔️
+    🟢 How to check for an answer with multiple values  ✔️
 
 
     #guess = input("Who has more followers? Type 'A' or 'B': ").lower()
